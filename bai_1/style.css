@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.thumbnail {
+    background-color: #39BEF8;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail__container {
+    min-height: 500px;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: rgba(0, 0, 0, 0.71);
+    /* margin: auto; */
+    width: fit-content;
+    min-width: 50%;
+    /* min-height: fit-content; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thumbnail__container__top {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.thumbnail__container__top--left {
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+
+.thumbnail__container__top--left button {
+    border-radius: 30px;
+    background: #2DC071;
+    display: block;
+    margin: auto;
+
+    padding: 7px 30px;
+    color: #FFF;
+    text-align: center;
+    /* font-family: Montserrat; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 26.465px; 96.798% */
+    letter-spacing: 0.377px;
+    text-transform: uppercase;
+}
+
+.thumbnail__container__top--left a {
+    color: #94D2FF;
+    /* font-family: Montserrat; */
+    margin-top: 40px;
+    display: block;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    /* line-height: 100px; 195.832% */
+    letter-spacing: 0.377px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.thumbnail__container__top img {
+    width: 50px;
+    height: auto;
+}
+
+.thumbnail__container__middle {
+    color: #FFF;
+    /* font-family: Montserrat; */
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72.105px; /* 150% */
+    letter-spacing: 0.481px;
+    /* margin-top: 20px; */
+}
+
+.thumbnail__container__middle span {
+    font-weight: 900;
+}
+
+.thumbnail__container__bottom {
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    gap: 30px;
+
+    border-radius: 202.75px;
+    background: #FFF;
+    box-shadow: 0px 19.77237px 28.89807px 0px rgba(0, 0, 0, 0.07);
+}
+
+.thumbnail__container__bottom img {
+    /* flex: 1; */
+    box-sizing: border-box;
+    min-width: 0;
+    height: inherit;
+}
+
+.resource {
+    background-color: #fff;
+    flex: 1;
+}
