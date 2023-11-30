@@ -1,0 +1,139 @@
+:root {
+    --container-pading: 10%;
+    --colour-main-blue-900: #091133;
+    --colour-main-blue-800: #111B47;
+    --colour-main-blue-500: #505F98;
+    --colour-secondary-white-100: #FFFFFF;
+    --background-image-height: 1200px;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    min-width: 1840px;
+    color: var(--colour-main-blue-500);
+    padding: 0 var(--container-pading);
+}
+
+a {
+    text-decoration: none;
+    color: var(--colour-main-blue-500);
+}
+
+.header {
+    position: relative;
+    padding: 0px var(--container-pading);
+    height: var(--background-image-height);
+}
+
+/*  */
+.nav {
+    position: relative;
+    display: flex;
+    z-index: 2;
+    align-items: stretch;
+    height: 100px;
+}
+
+.nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav--left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 60px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav--middle {
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.nav--right {
+    justify-content: right;
+}
+
+.nav--right button {
+    font-size: 25px;
+    /* width: 200px; */
+    border-radius: 4px;
+    height: fit-content;
+    padding: 3px 90px; 
+    background-color: var(--colour-main-blue-800);
+    color: var(--colour-secondary-white-100);
+    border: none;
+}
+
+/*  */
+.introduce {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 2;
+    max-width: 40%;
+}
+
+.introduce p {
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+}
+
+.introduce__title {
+    color: var(--colour-main-blue-900);
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.introduce__detail {
+    font-size: 20px;
+}
+
+.introduce__button {
+    margin-top: 60px;
+}
+
+.introduce__button button:first-child {
+    background-color: var(--colour-main-blue-800);
+    color: var(--colour-secondary-white-100);
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.introduce__button button:last-child {
+    background-color: var(--colour-secondary-white-100);
+    border: 2px solid var(--colour-main-blue-900);
+    color: var(--colour-main-blue-900);
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+
+/*  */
+.background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.background-image img {
+    height: var(--background-image-height);
+}
+
