@@ -10,7 +10,7 @@
 body {
     font-family: Roboto;
     margin: 0;
-    min-width: 1840px;
+    min-width: 1400px;
     color: var(--colour-main-blue-500);
     padding: 0 var(--container-pading);
 }
@@ -93,12 +93,12 @@ a {
 
 .introduce__title {
     color: var(--colour-main-blue-900);
-    font-size: 65px;
+    font-size: 48px;
     font-weight: 500;
 }
 
 .introduce__detail {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .introduce__button {
